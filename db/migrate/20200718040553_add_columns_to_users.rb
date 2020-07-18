@@ -5,5 +5,8 @@ class AddColumnsToUsers < ActiveRecord::Migration[5.2]
     add_column :users, :address_city, :string
     add_column :users, :address_street, :string
     add_column :users, :address_building, :string
+    add_column :users, :introduction, :string
+	add_column :users, :profile_image_id, :string
+
   end
 end
